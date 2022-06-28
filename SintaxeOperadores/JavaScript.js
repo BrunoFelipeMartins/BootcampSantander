@@ -1,5 +1,5 @@
 function comparaNumeros(num1, num2) {
-   
+   if (!num1 || !num2) return 'Defina dois números!';
    // const saoIguais = num1 === num2;
    // const soma = num1 + num2;
 
